@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 const CoinTrending = ({ coin }) => {
   return (
     <Link to={`/coin/${coin.id}`}>
-      <div className="font-light mb-2 p-2 border-blue-600 border-2 rounded hover:bg-blue-600">
+      <div className="font-light mb-2 p-2 border-green-800 border-2 rounded hover:bg-green-800">
         <div className="flex items-center gap-1">
           <span className="font-semibold">{coin.score+1}.</span>
           <img className="w-6" src={coin.small} alt={coin.name} />
