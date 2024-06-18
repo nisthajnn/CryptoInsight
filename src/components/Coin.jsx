@@ -6,7 +6,7 @@ const Coin = ({ coin }) => {
   console.log(coin);
   return (
     <Link to={`/coin/${coin.id}`}>
-      <div className="grid grid-cols-3 sm:grid-cols-4 font-light p-2 rounded border-green-800 border-b hover:bg-green-800">
+      <div className="grid grid-cols-3 sm:grid-cols-4 font-light p-2 rounded border-zinc-950 border-b hover:bg-zinc-700">
         <div className="flex items-center gap-1 w-full">
           <img className="w-6" src={coin.image} alt={coin.name} />
           <p>{coin.name}</p>
