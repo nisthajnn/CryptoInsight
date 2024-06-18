@@ -5,7 +5,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-green-900 text-white h-14 flex items-center">
+    <div className="bg-blue-950 text-white h-14 flex items-center">
       <div className="wrapper-container w-full">
         <div className="flex items-center gap-1 cursor-pointer" onClick={() => navigate('/')}>
           <LogoIcon />
